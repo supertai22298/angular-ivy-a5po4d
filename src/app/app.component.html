@@ -1,0 +1,6 @@
+<hello name="{{ name }}"></hello>
+<div style="width: 300px; text-align: center">
+  <button (click)="start()" *ngIf="!isStarted">Bấm là thực hiện á nghe</button>
+  <h1 *ngIf="isStarted && counter != 0">{{ counter }}</h1>
+  <h1 *ngIf="counter == 0">Cho anh coi cherry 🍒</h1>
+</div>
